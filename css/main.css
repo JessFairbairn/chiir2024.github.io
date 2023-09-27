@@ -143,6 +143,10 @@ h3 {
   background-color: #ccc;
 }
 
+.accordion:focus-visible {
+  outline: auto;
+}
+
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
@@ -247,4 +251,8 @@ h3 {
 @keyframes fade {
   from {opacity: .5}
   to {opacity: 2}
+}
+
+button.accordian:hover {
+  
 }
